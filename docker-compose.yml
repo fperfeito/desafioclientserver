@@ -1,0 +1,8 @@
+version: '3'
+services:
+  sqlite-db:
+    image: alpine:latest
+    container_name: sqlite-container
+    volumes:
+      - d:/dados/sqlite-data:/data
+    
